@@ -15,7 +15,7 @@
 	String dbName = "cybersoft";
 	//表名 
 	String tableName = "user";
-	//將資料庫資訊字元串連接成為一個完整的url（也可以直接寫成url，分開寫是明瞭可維護性強） 
+	//將資料庫資訊字元串連接成為一個完整的url（也可以直接寫成url，分開寫是明瞭可維護性強!） 
 
 	//String url = "jdbc:mysql://localhost/" + dbName + "?user=" + userName + "&password=" + userPasswd;
 	String url = "jdbc:mysql://localhost/" + dbName + "?useUnicode=true&characterEncoding=Big5&serverTimezone=CTT";
